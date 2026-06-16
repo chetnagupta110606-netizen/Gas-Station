@@ -1,18 +1,17 @@
-# Gas-Station (LeetCode 134)
+# Gas Station (LeetCode 134)
 In this DSA problem we will be given with the two arrays one is Gas array that is available to us for moving from that station to other and the other is cost array which gives the required amount of gas to move to next station . In this, we have to return the index from which in Gas array we should start so that we can complete our circular track
 
-
+## Problem Link 
+ https://leetcode.com/problems/gas-station/
 ## Approach
 - Calculate total gas and total cost.
 - If total gas < total cost, return `-1`.
 - Traverse the stations while maintaining the current tank.
 - Whenever the tank becomes negative, reset the starting station to the next index.
+## Complexity Analysis
 
-## Time Complexity
-O(n)
-
-## Space Complexity
-O(1)
+Time Complexity : O(n)
+Space Complexity : O(1)
 
 ## Solution
 
